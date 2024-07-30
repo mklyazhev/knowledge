@@ -53,4 +53,5 @@ class LinearRegression:
         return np.dot(X, self.weights)
 
     def get_coef(self):
+        # Возвращает вектор весов
         return self.weights.values[1:]
